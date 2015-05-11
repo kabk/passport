@@ -1,0 +1,30 @@
+Time : 22:32:01
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'rid' at row 1
+Raw SQL : INSERT INTO added (text, rid) VALUES (:text, :rid)
+
+Time : 22:21:24
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM added WHERE rid = :id
+
+Time : 22:20:39
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM added WHERE rid = :id
+
+Time : 22:20:10
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM added WHERE rid = :id
+
+Time : 22:19:55
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM added WHERE id = :id
+
+Time : 22:19:49
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM added WHERE id = :id
+
+Time : 22:19:45
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM added WHERE id = :id
+
+Time : 22:07:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'megin.questions' doesn't exist

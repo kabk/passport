@@ -1,4 +1,6 @@
-<html>
+<?
+	require_once('init_categories.php');
+?><html>
 <head>
 	<title></title>
 	<style type="text/css">

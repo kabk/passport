@@ -1,9 +1,0 @@
-Time : 16:43:03
-SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'qid' at row 1
-Raw SQL : INSERT INTO comments (comment, qid, name) VALUES (:comment, :qid, :name)
-
-Time : 16:10:12
-SQLSTATE[42S22]: Column not found: 1054 Unknown column 'text' in 'field list'
-
-Time : 16:09:47
-SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rebecca.added' doesn't exist

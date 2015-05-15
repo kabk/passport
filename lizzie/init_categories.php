@@ -33,3 +33,11 @@ if ($db->query("SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE table_schema = 'pa
 	$db->query($sql);
 }
 
+// If the table passports can not be found (the exclamation mark before `if` means ‘not’)
+if (! $db->query("SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE table_schema = 'passport' AND table_name ='passports'")) {
+	// create it
+	$sql = "CREATE TABLE passports (
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	categories TEXT NOT NULL)";
+	$db->query($sql);
+}
